@@ -1,0 +1,1 @@
+"""Secure MCP server boilerplate."""

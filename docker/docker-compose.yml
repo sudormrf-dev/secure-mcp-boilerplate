@@ -1,0 +1,8 @@
+services:
+  mcp-server:
+    build: ..
+    ports:
+      - "8000:8000"
+    environment:
+      - MCP_OAUTH_SECRET=${MCP_OAUTH_SECRET:-change-me}
+      - MCP_LOG_LEVEL=INFO
